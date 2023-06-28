@@ -1,7 +1,5 @@
-//____________ exercice____________________ :
-      
+//____________ exercice____________________ :    
       // Créer une application react qui affiche juste (pour l'instant) juste un "Bonjour Piscine". Pour ça :
-
       // -- dans le terminal, placez vous dans le dossier qui contient tous vos projets 
       // -- installez react avec npx create-react-app nom-du-projet (ici nom-du-projet doit être modifié avec le nom réel que vous voulez). Attention à ne pas mettre d'espaces, de majuscules ou de caractères spéciaux dans le nom du dossier
       // -- placez vous avec le terminal dans le dossier créé par react
@@ -9,30 +7,20 @@
       // -- ouvrez le dossier avec visual studio code
       // -- dans le dossier src, modifiez le contenu du JSX du composant App pour créer uniquement une balise paragraphe avec "Bonjour Piscine".
 
-
 // ___________solution_____________________:
-
       // function App() {
       //   return (
       //     <p>Bonjour Piscine</p>
       //   );
       // }
-
       // export default App;
 
-
 // ----------------------------------------------------------
-
-
 //____________ exercice____________________ :
-
-
     // Créer un composant Profile, qui permet d'afficher les infos résumé du profil (nom, prénom, âge et métier).
     // Appeler ce composant à la fin de votre composant App
 
-
 // ___________solution_____________________:
-
 
       // export default App;
 
@@ -65,8 +53,7 @@
       //     );
       // }
 
-
- //  --------------OU-------------
+ //  --------------OU-----------------------------------------------
       // function App() {
       //   return (
       //     <div className="App">
@@ -82,23 +69,25 @@
 
 //------------------------------------------------------------------------
 
-
 // Dans votre application react, créez un nouveau composant ArticlesList
 // Faites le composant très simple au départ (juste une balise <p> par exemple)
 // Appelez ce composant dans App.js
 // Si le composant s'affiche bien dans le navigateur :
 // modifiez votre composant pour afficher 3 ou 4 articles avec titre, image et texte
-import ArticlesList from './ArticlesList';
-
-    function App() {
-        return (
-          <div className="App">
-            <ArticlesList/>
-          </div>
-        );
-      }
-      
-      export default App;
 
 
+import Profile from "./Profile";
+import ArticlesList from "./ArticlesList";
+
+const App = () => {
+  return (
+    <div>
+      <h1>Bonjour Piscine</h1>
+      <Profile />
+      <ArticlesList />
+    </div>
+  );
+};
+
+export default App;
 
