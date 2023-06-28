@@ -1,0 +1,41 @@
+body{
+  background: linear-gradient(to right, rgb(189, 211, 241),rgb(211, 168, 234) );
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+  border:2px solid rgb(130, 226, 227) ;
+   border-radius: 100px;
+}
+
+
+.App-Header {
+  background-color: rgb(211, 168, 234) ;
+ text-align: center;
+ text-decoration: none;
+ font-family: fantasy ;
+
+}
+
+.App-Profile{
+  font-size:x-large ;
+  text-align: center;
+
+}
+
+
+.App-Footer{
+  text-align: center;
+  background-color:rgb(189, 211, 241) ;
+  height: 300px;
+  font-size: xx-large ;
+  text-align: center;
+}
+
+.App-Experience{
+  text-align: center;
+}
