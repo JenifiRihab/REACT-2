@@ -54,20 +54,20 @@
 //     },
 // ]; 
 
-
-
 import Header from "./Header";
 import Profile from "./Profile";
 import Experiences from "./Experiences";
+import PostsFeed from "./PostsFeed";
 import Footer from "./Footer";
-
 const App = () => {
   return (
     <>
       <Header/>
       <Profile />
       <Experiences />
+      <PostsFeed/>
       <Footer />
+
     </>
   );
 };

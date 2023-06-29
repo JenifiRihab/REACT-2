@@ -1,0 +1,17 @@
+.job {
+  background-color: lightblue;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  cursor: pointer;
+}
+
+.job.job-current {
+  background-color: yellow;
+  border: 1px solid black;
+}
