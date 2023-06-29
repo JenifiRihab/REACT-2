@@ -1,5 +1,6 @@
 body{
-  background: linear-gradient(to right, rgb(214, 230, 254),rgb(254, 197, 197) );
+  background-image: url(https://img.freepik.com/photos-gratuite/cocktail-colore_130291-3280.jpg?size=626&ext=jpg);
+
 }
 .App {
   text-align: center;
@@ -19,8 +20,8 @@ body{
   margin: 0 20%;
 }
 .App-Header {
-  background-color: rgb(254, 197, 197);
- 
+  background-color: rgba(4, 4, 5, 0.904);
+ color: rgb(27, 21, 211);
  text-decoration: none;
  font-family: fantasy ;
  font-size:x-large ;
@@ -32,21 +33,24 @@ body{
  text-align: center;
  color: rgb(2, 0, 4) ;
 font-family: fantasy ;
-border:5px solid rgb(164, 255, 255) ;
+border:3px solid rgb(238, 255, 106) ;
 border-radius: 20px;
 width: 200px;
-margin: 0 42%;
+margin: 5% 42%;
+color: rgb(164, 208, 255);
 }
 
 
 .App-Footer{
   text-align: center;
-  background-color:rgb(214, 230, 254) ;
+  background-color:rgb(0, 0, 0) ;
   height: 320px;
   font-size: larger;
   text-align: center;
+  color: rgb(127, 200, 255);
 }
 
 .all{
   text-align: center;
 }
+

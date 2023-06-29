@@ -1,51 +1,30 @@
-const CoktailRandom= () => {
-    const cocktailsFromApi = [
-      {
-        id: 1,
-        name: "Mojito",
-        price: 8,
-        ingredients: ["Rhum", "Menthe", "Citron vert", "Eau gazeuse"],
-        isPublished: true,
-      },
-    
-    ];
-    
-    return (
-<div className="all">
-      <h1>un coktail aléatoire:</h1>
-  <div className="App-cocktail">{cocktailsFromApi.map((Cocktails) => {
-    
-    return (
-      Cocktails.isPublished && (
-        <article>
-            <h3>{Cocktails.name}</h3>
-            <p>{Cocktails.price}</p>
-            <p>{Cocktails.ingredients}</p>
-          </article>
-        )
-      );
-    })}
-  </div>
-  </div>
-);
-}
 
+const CoktailRandom = ({ cocktailsFromApi }) => {
 
-export default CoktailRandom 
+  let table = [];
+  cocktailsFromApi.map((element) => {
+    element.isPublished && table.push(element);
+    return table;
+  });
+
+  const resultTable = table[Math.floor(Math.random() * table.length)]
   
+  return (
+    <div className="App-cocktail">
+      <h2>Cocktail du Jour</h2>
+      <p>{resultTable.name}</p>
+      <p className="leftOfBox">Prix :{resultTable.price}€</p>
+      <p className="leftOfBox">Composition du cocktail: {resultTable.ingredients}</p>
+    
+    </div>
+  );
+};
+export default CoktailRandom 
 
 
-// const Cocktails= ({cocktailsFromApi}) => {
-//   return (
-//     <main className="all">
-//       <h1>la liste de tous les cocktails:</h1>
-//       <ul>
-//         <li>name : {cocktailsFromApi.name}</li>
-//         <li>price : {cocktailsFromApi.price}</li>
-//         <li>ingredients : {cocktailsFromApi.ingredients}</li>
-//       </ul>
-//     </main>
-//   );
-// };
 
-// export default  Cocktails
+
+
+
+
+

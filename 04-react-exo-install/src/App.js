@@ -56,10 +56,10 @@
 
 import "./App.css";
 import Header from "./Header";
-import Cocktails from "./Cocktails";
-import Footer from "./Footer";
+import AllCocktails from "./AllCocktails";
 import CoktailRandom from "./CoktailRandom";
 import ThreeLastCocktails from "./ThreeLastCocktails";
+import Footer from "./Footer";
 const App = () => {
 
   const userFromApi= {
@@ -111,7 +111,7 @@ const App = () => {
       <Header userFromApi={userFromApi} />
       <CoktailRandom cocktailsFromApi={cocktailsFromApi} />
       <ThreeLastCocktails cocktailsFromApi={cocktailsFromApi}/>
-      <Cocktails cocktailsFromApi={cocktailsFromApi} />
+      <AllCocktails cocktailsFromApi={cocktailsFromApi} />
       <Footer />
 
     </>
