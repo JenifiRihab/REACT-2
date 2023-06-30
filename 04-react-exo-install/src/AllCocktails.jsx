@@ -3,13 +3,13 @@ const AllCocktails = ({ cocktailsFromApi }) => {
       <div className="App-cocktail">
         
         <h1> la liste de tous les cocktails: </h1>
-        {cocktailsFromApi.map((element) => {
+        {cocktailsFromApi.map((cocktail) => {
           return (
-            element.isPublished && (
+            cocktail.isPublished && (
               <div>
-                <h2>{element.name}</h2>
-                <p>Prix : {element.price}</p>
-                <p>Les ingrédients :{element.ingredients}</p>
+                <h2>{cocktail.name}</h2>
+                <p>Prix : {cocktail.price}</p>
+                <p>Les ingrédients :{cocktail.ingredients}</p>
             
               </div>
             )

@@ -1,8 +1,8 @@
 const ThreeLastCocktails = ({ cocktailsFromApi }) => {
 const table = [];
 
-    cocktailsFromApi.map((element) => {
-    element.isPublished && table.push(element);
+    cocktailsFromApi.map((cocktail) => {
+    cocktail.isPublished && table.push(cocktail);
 
     return table;
 
@@ -13,13 +13,13 @@ const table = [];
   return (
     <div class="App-cocktail">
         <h1>les trois derniers cocktails</h1>
-         {RandomCocktail.map((element) => (
+         {RandomCocktail.map((cocktail) => (
 
         <div className="contentCock">
 
-          <p class="latest">{element.name}</p>
-          <p class="latest">Prix :{element.price}</p>
-          <p class="latest">Composition :{element.ingredients}</p>
+          <p class="latest">{cocktail.name}</p>
+          <p class="latest">Prix :{cocktail.price}</p>
+          <p class="latest">Composition :{cocktail.ingredients}</p>
         
         </div>
 

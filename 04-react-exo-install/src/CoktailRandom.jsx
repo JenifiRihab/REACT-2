@@ -2,8 +2,8 @@
 const CoktailRandom = ({ cocktailsFromApi }) => {
 
   let table = [];
-  cocktailsFromApi.map((element) => {
-    element.isPublished && table.push(element);
+  cocktailsFromApi.map((cocktail) => {
+    cocktail.isPublished && table.push(cocktail);
     return table;
   });
 
