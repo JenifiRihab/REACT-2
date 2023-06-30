@@ -7,14 +7,14 @@ const CoktailRandom = ({ cocktailsFromApi }) => {
     return table;
   });
 
-  const resultTable = table[Math.floor(Math.random() * table.length)]
+  const RandomCocktail = table[Math.floor(Math.random() * table.length)]
   
   return (
     <div className="App-cocktail">
       <h2>Cocktail du Jour</h2>
-      <p>{resultTable.name}</p>
-      <p className="leftOfBox">Prix :{resultTable.price}€</p>
-      <p className="leftOfBox">Composition du cocktail: {resultTable.ingredients}</p>
+      <h3>{RandomCocktail.name}</h3>
+      <p>Prix :{RandomCocktail.price}€</p>
+      <p>Composition du cocktail: {RandomCocktail.ingredients}</p>
     
     </div>
   );
