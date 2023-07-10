@@ -1,6 +1,7 @@
 body{
   background-image: url(https://img.freepik.com/photos-gratuite/cocktail-colore_130291-3280.jpg?size=626&ext=jpg);
-
+  /* background-repeat: no-repeat; */
+ 
 }
 .App {
   text-align: center;

@@ -1,0 +1,75 @@
+body{
+background-image: url(https://i.pinimg.com/originals/b4/45/a9/b445a9a867fe078d6e26611165d75d5d.jpg);
+}
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    width: 80px;
+    pointer-events: none;
+    border:5px solid rgb(0, 0, 0) ;
+     border-radius: 200px;
+  }
+  
+  .menu{
+    color: aliceblue;
+    text-decoration: none;
+ 
+  }
+  .title{
+    font-family: fantasy ;
+    text-align: center;
+   
+  }
+  .App-Header {
+background-color: rgb(164, 134, 52);
+  background-size: contain;
+   color: rgb(0, 0, 0);
+   text-decoration: none;
+   font-family: fantasy ;
+   font-size:x-large ;
+
+  }
+  
+  .App-Footer{
+    text-align: center;
+    background-color:rgb(164, 134, 52) ;
+    height: 150px;
+    font-size: larger;
+    text-align: center;
+    color: rgb(127, 200, 255);
+  }
+  .App-products{
+    text-align: center;
+   font-size: larger;
+   text-align: center;
+   color: rgb(2, 0, 4) ;
+  font-family: fantasy ;
+  border:3px solid rgb(203, 156, 1) ;
+  border-radius: 20px;
+  width: 200px;
+  margin: 5% 42%;
+  color: rgb(255, 255, 255);
+  }
+
+
+
+
+  .logo2{
+    width: 400px;
+    position: absolute;
+   left: 40% ;
+   margin: -25% 1%;
+  }
+  .App-products1{
+    text-align: center;
+   font-size: x-large;
+  font-family: fantasy ;
+  color: rgb(0, 0, 0);
+background-color: antiquewhite;
+  border:3px solid rgb(203, 156, 1) ;
+  border-radius: 20px;
+  width: 200px;
+  margin: 5% 42%;
+  }

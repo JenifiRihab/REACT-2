@@ -21,10 +21,6 @@ const Header = ({ userFromApi }) => {
               <a href="#">BAR & SORTIES</a>
             </li>
 
-            <li>
-              Connecté en tant que {userFromApi.firstName} {userFromApi.lastName}
-            </li>
-            
           </ul>
         </nav>
 

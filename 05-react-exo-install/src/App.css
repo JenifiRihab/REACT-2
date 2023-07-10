@@ -1,5 +1,7 @@
 body{
   background-image: url(https://www.huntersftlauderdale.com/wp-content/uploads/2018/03/slide02-cocktails.jpg);
+  /* background-size: cover; */
+
 
 }
 .App {
@@ -9,7 +11,7 @@ body{
 .App-logo {
   width: 100px;
   pointer-events: none;
-  border:2px solid rgb(255, 10, 145) ;
+  border:2px solid rgb(255, 43, 128) ;
    border-radius: 200px;
 }
 
@@ -21,7 +23,7 @@ body{
 }
 .App-Header {
   background-color: rgba(15, 1, 14, 0.731);
- color: rgb(6, 1, 172);
+ color:rgb(78, 120, 255);
  text-decoration: none;
  font-family: fantasy ;
  font-size:x-large ;
@@ -37,13 +39,13 @@ border:5px solid rgb(255, 19, 192) ;
 border-radius: 50px;
 width: 200px;
 margin: 5% 42%;
-color: rgb(78, 120, 255);
+color: rgb(188, 185, 249);
 }
 
 
 .App-Footer{
   text-align: center;
-  background-color:rgb(51, 1, 51) ;
+  background-color:rgba(16, 2, 22, 0.806) ;
   height: 320px;
   font-size: larger;
   text-align: center;
