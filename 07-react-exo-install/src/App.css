@@ -20,7 +20,7 @@ body{
   margin: 0 20%;
 }
 .App-Header {
-  background-color: rgb(255, 229, 193);
+  background-color: rgba(255, 229, 193, 0.703);
  color:rgb(0, 0, 0);
  text-decoration: none;
  font-family: fantasy ;
@@ -29,11 +29,12 @@ body{
 
 .App-Footer{
   text-align: center;
-  background-color: rgb(255, 229, 193);
+  background-color: rgba(238, 206, 161, 0.703);
   height: 320px;
   font-size:xx-large;
   text-align: center;
-  color: rgb(234, 132, 0);
+  font-family: fantasy ;
+  color: rgb(46, 26, 0);
 }
 
 .App-coworking{
@@ -46,6 +47,7 @@ border:5px solid rgb(255, 137, 19) ;
 border-radius: 50px;
 width: 200px;
 margin: 5% 42%;
+background-color: antiquewhite;
 
 }
 

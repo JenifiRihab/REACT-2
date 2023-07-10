@@ -1,12 +1,12 @@
 const AllCoworking = ({ coworkingsFromFakeApi }) => {
+
     return (
+      
       <div className="App-coworking">
-        
-        <h1> la liste de tous les <strong>COWORKING</strong>: </h1>
-       
-        {coworkingsFromFakeApi.map((element) => {
-          return (
-            element.rating && (
+          <h1> la liste de tous les <strong>COWORKING</strong>: </h1>
+          {coworkingsFromFakeApi.map((element) => {
+            return (
+              element.rating && (
 
               <div>
 
@@ -21,6 +21,7 @@ const AllCoworking = ({ coworkingsFromFakeApi }) => {
             )
           );
         })}
+        
       </div>
     );
 };
