@@ -14,7 +14,7 @@ const CreateCoworking =() =>{
         <form className="form" onSubmit={handleSubmit}>
 
             <label>Titre</label>
-                <input type="text" name="title" />
+                <input type="text" name="title" /> 
         
             <label>Description</label>
                 <textarea name="description" cols="30" rows="5"></textarea>
