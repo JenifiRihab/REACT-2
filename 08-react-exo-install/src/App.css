@@ -1,0 +1,27 @@
+body{
+background-color: antiquewhite;
+}
+
+.form{
+    background-color: rgb(235, 197, 122);
+    color:rgb(0, 0, 0);
+    border:5px solid rgb(255, 232, 142) ;
+    border-radius: 10px;
+    padding: 20px 30px;
+    display: inline-block;
+    text-align: center;
+    font-family: fantasy ;
+    font-size:x-large ;
+}
+
+.btn{
+    background-color: rgb(251, 173, 18);
+    color:rgb(0, 0, 0);
+    border:5px solid rgb(255, 232, 142) ;
+    border-radius: 10px;
+    padding: 5px 15px;
+    display: inline-block;
+    text-align: center;
+    font-family: fantasy ;
+    font-size:xx-large ;
+  }

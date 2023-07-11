@@ -1,5 +1,6 @@
 const AllCoworking = ({ coworkingsFromFakeApi }) => {
 
+  
     return (
       
       <div className="App-coworking">
@@ -27,3 +28,4 @@ const AllCoworking = ({ coworkingsFromFakeApi }) => {
 };
   
   export default AllCoworking;
+

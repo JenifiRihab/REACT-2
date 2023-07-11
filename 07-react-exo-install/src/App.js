@@ -1,6 +1,7 @@
 
 import "./App.css";
 import Header from "./Header";
+import Welcome from "./Welcome";
 import AllCoworking from "./AllCoworking";
 import MinCoworking from "./MinCoworking";
 import Footer from "./Footer";
@@ -47,6 +48,7 @@ function App() {
   return (
     <>
       <Header />
+      <Welcome />
       <AllCoworking coworkingsFromFakeApi={coworkingsFromFakeApi} />
       <MinCoworking coworkingsFromFakeApi={coworkingsFromFakeApi}/>
       <Footer />
