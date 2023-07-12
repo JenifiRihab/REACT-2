@@ -1,6 +1,8 @@
+import UpdateCoworking from "./UpdateCoworking";
+
 const ShowCoworking = ({ coworking }) => {
     const handleDelete = () => {
-      console.log("coworking supprimé", coworking.id);
+      console.log("coworking-supprime", coworking.id);
     };
   
     return (
@@ -10,6 +12,8 @@ const ShowCoworking = ({ coworking }) => {
         <p>{coworking.phone}</p>
         <img src={coworking.img} alt={coworking.name} />
         <button onClick={handleDelete}>Supprimer le coworking</button>
+        
+        <UpdateCoworking coworking={coworking} />
       </article>
     );
   };

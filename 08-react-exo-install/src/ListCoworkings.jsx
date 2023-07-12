@@ -70,7 +70,7 @@ const ListCoworkings = () => {
         // ça provoque un rechargement du composant
                   
           setCoworkings(coworkingsData);
-        }, 2000);
+        }, 4000);
       }
     };
               
