@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "name": "Coworking 1",
+      "address": "Bordeaux",
+      "phone": "123456789",
+      "img": "https://th.bing.com/th/id/R.ffe5144919c2ca364ab86f8a6ab4f54c?rik=E450QvHldcSuvQ&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 2,
+      "name": "Coworking 2",
+      "address": "Merignac",
+      "phone": "123456789",
+      "img": "https://th.bing.com/th/id/R.ffe5144919c2ca364ab86f8a6ab4f54c?rik=E450QvHldcSuvQ&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 3,
+      "name": "Coworking 3",
+      "address": "Bordeaux",
+      "phone": "123456789",
+      "img": "https://th.bing.com/th/id/R.ffe5144919c2ca364ab86f8a6ab4f54c?rik=E450QvHldcSuvQ&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 4,
+      "name": "Coworking 4",
+      "address": "Eysines",
+      "phone": "123456789",
+      "img": "https://th.bing.com/th/id/R.ffe5144919c2ca364ab86f8a6ab4f54c?rik=E450QvHldcSuvQ&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 5,
+      "name": "Coworking 5",
+      "address": "Lormont",
+      "phone": "123456789",
+      "img": "https://th.bing.com/th/id/R.ffe5144919c2ca364ab86f8a6ab4f54c?rik=E450QvHldcSuvQ&pid=ImgRaw&r=0"
+    }
+  ]
